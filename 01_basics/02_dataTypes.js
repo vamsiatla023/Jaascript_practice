@@ -26,4 +26,4 @@ console.log(typeof "amsitla")
 
 console.log(typeof undefined) //undefined
 
-console.log(typeof null) // object
+console.log(typeof null) // object as said in the above
