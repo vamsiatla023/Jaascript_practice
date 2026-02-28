@@ -33,7 +33,7 @@ console.log(typeof heros);//return object
 
 
 /************************************************************************************* */
-
+    // MEMORY MANAGEMENT
   //stack (primitive) ,Heap(Non-Primitive)
 
   //stack(will have the original value copy)
