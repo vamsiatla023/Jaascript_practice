@@ -32,4 +32,4 @@ console.log(url.replace('%20', "-"))
 console.log(url.includes('atla')) //checks the atla is in the url or not  return true or false
 
 const newStringTwo = "vamsi-atla-goud"
-console.log(newStringTwo.split('-'));
+console.log(newStringTwo.split('-')); //to convert the vamsi-atla-goud into array (run to get it)
