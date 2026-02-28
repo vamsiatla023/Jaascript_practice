@@ -30,3 +30,23 @@ const myFunction = function(){
 
 console.log(typeof myFunction);//return objFunction
 console.log(typeof heros);//return object
+
+
+/************************************************************************************* */
+
+  //stack (primitive) ,Heap(Non-Primitive)
+
+  //stack(will have the original value copy)
+  let myYoutubeName = "hiteshchoudharydotcom"
+
+  let anothername = myYoutubeName
+
+  anothername = "chaiaurcode"
+
+  console.log(myYoutubeName)
+  console.log(anothername)
+
+
+  //Heap(it will have the original value reference)
+    //aboe explination is in the notes
+
