@@ -20,10 +20,10 @@ myarray.push(7)
 
 // myarray.shift() // it is used to remove the starting digit of the array 
 
-const newarray = myarray.join()
+const newarray = myarray.join() // will gie the array normally like 1,2,3,4,5 instead of [1,2,3,4,5]
 
 // console.log(myarray)
-//  console.log(newarray)
+  console.log(newarray)
 
 
  // slice //splice
@@ -40,4 +40,4 @@ const newarray = myarray.join()
  console.log(myn2)
 
  // DIfference between the slice and the splice is  ,In splice original array will get manipulated 
-//  whereas in slice original array won't get manipulated //run it to know. 
+//  whereas in slice original array won't get manipulated //run it to  know. 
