@@ -48,4 +48,43 @@ loginuser("vamsiatla")//nothing will print itwilljust get excuted
     }
     return `${user} has logged inthe website`
 }
-console.log(loginuser("namo_Venkatesaya"));//it will override the above value
+// console.log(loginuser("namo_Venkatesaya"));//it will override the above value
+
+
+// video-20 How to use the obj or arrays inside the fns
+function calculate(...num1){        ///...num1 can be spread operator  or rest operator based the use case  we will decide
+ return num1
+}
+
+// console.log(calculate(200,400,600))
+
+function calculate(val1, val2, ...num1){        ///...num1 can be spread operator  or rest operator based the use case  we will decide
+ return num1
+}
+
+// console.log(calculate(200,400,600,80000,5000))
+
+const user={
+    username:"vamsi",
+    price:600
+}
+
+function handleObj(anyobject){
+  console.log(`username is ${anyobject.username} and the price is ${anyobject.price}`)
+}
+
+// handleObj(user);
+
+handleObj({
+  username:"atla",
+  price:"001"
+
+})
+
+const mynewarray=[1000,200,300,40,500]
+function arrayfn(getarray){
+    return getarray[2]
+}
+
+// console.log(arrayfn(mynewarray));
+
